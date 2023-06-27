@@ -16,15 +16,15 @@
 			"name": "Home",
 			"type": "url",
 			"icon": "https://www.solodroid.net/demo/webdroid/images/ic_home.png",
-			"url": "http://fbt2023.blogspot.com",
-			"url_dark": "http://fbt2023.blogspot.com"
+			"url": "https://fbt2023.blogspot.com",
+			"url_dark": "https://fbt2023.blogspot.com"
 		},
 		{
 			"name": "Portfolio",
 			"type": "url",
 			"icon": "https://www.solodroid.net/demo/webdroid/images/ic_portfolio.png",
-			"url": "http://fbt2023-ovun.blogspot.com",
-			"url_dark": "http://fbt2023-ovun.blogspot.com"
+			"url": "https://fbt2023-ovun.blogspot.com",
+			"url_dark": "https://fbt2023-ovun.blogspot.com"
 		},
 		{
 			"name": "Testimonials",
@@ -81,6 +81,6 @@
 		"ironsource_app_key": "85460dcd",
 		"ironsource_banner_placement_name": "DefaultBanner",
 		"ironsource_interstitial_placement_name": "DefaultInterstitial",
-		"interstitial_ad_interval": 3
+		"interstitial_ad_interval": 1
 	}
 }
