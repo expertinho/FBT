@@ -1,0 +1,336 @@
+html, body {
+font-family: 'Helvetica', sans-serif;
+margin: 0;
+padding: 0;
+background:#d3d3d3;
+}
+
+.backseat{
+width: 30px; height: 30px;margin-left:4px;margin-right:36%;display: inline-block;position: fixed;}
+	
+	
+	a {
+		background:transparent;
+color: transparent;
+text-decoration: none;
+cursor:none;
+}	
+	
+	.titlebox {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    width: 90%;
+    border: #af475c solid 3px;
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+	
+	.back {
+		color: transparent;
+		background:transparent;
+text-decoration: none;
+border:0px;
+margin-left:4px;margin-right:25%;
+	}
+		.back:hover {
+		color: transparent;
+		background:transparent;
+text-decoration: none;
+border:0px;
+	}
+			.back:active {
+		color: transparent;
+		background:transparent;
+text-decoration: none;
+border:0px;
+	}
+	
+	.centersocial {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+	
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1e1e1e;
+    color: #af475c ;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    border-bottom: solid 2.0px;
+} 
+	
+/* Style the header */
+.header {
+background-color: #121212;
+  color: #f1f1f1;
+  padding-bottom:3px;
+  padding-top:5px;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color:#1e1e1e;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}	
+	
+	
+	hr.xoxo {
+    border: 0;
+    height: 5px;
+    background: #333;
+    background-image: linear-gradient(to right, #af475c, #af475c, #af475c);
+	margin:6px;
+	    margin-left: 10%;
+    margin-right: 10%;
+	border-radius:30px;
+      }
+	  
+	  	hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      }
+	
+	hr.colored {
+  border: 0;   /* in order to override TWBS stylesheet */
+  height: 2px;
+  width:80%;
+
+  background: -moz-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%);  /* FF3.6+ */
+  background: -webkit-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* IE10+ */
+  background: linear-gradient(to right, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* W3C */
+}
+	
+/* STATUS TEXT START */
+	odds {
+		color: orange;
+		float:left;
+		font-weight: 600;
+		font-size:15px;
+	    font-family:Roboto;
+		margin-top: 5px;
+		margin-right:2px;
+	}
+
+.neutral {
+	text-align:left;
+    color: #42c9c1;
+    font-size: 15px;
+    font-weight: 600;
+	font-family:Roboto;
+	display: inline-block;
+	padding-left: 2px;
+	margin-top: 5px;
+}
+.won {
+	text-align:left;
+    color: #33d33e;
+    font-size: 15px;
+    font-weight: 600;
+	font-family:Roboto;
+	display: inline-block;
+	padding-left: 2px;
+	margin-top: 5px;
+}
+.lost {
+	text-align:left;
+    color: #df4f4f ;
+    font-size: 15px;
+    font-weight: 600;
+	font-family:Roboto;
+	display: inline-block;
+	padding-left: 2px;
+	margin-top: 5px;
+}
+/* STATUS TEXT OVER */	 	
+		
+/* STATUS IMG START */  
+	 .WON {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEjzq-SiHriwjASFo8bCLTnoSEFGpzua6wcaARxTctYWoG4yehR2XV5oBLpO8_SEYXq-RWMe4KhajU0kphd2-d6mraUjyBE_dyAdlhPl20UhMIsnqc6NQjGeGa7Uu8vm0mIbCkQ6SpgqMUhIlv4lKOS9KCOm1WT1z6c2Ll2MT0SvPqvcTpn4dM4G-EPbac16);
+background-repeat: no-repeat;
+display: inline-block;
+vertical-align: middle; 
+padding-left:25px;
+padding-bottom:25px;
+}
+     .LOST {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEgZl9_OdiCKrW-0u98c53-SWipiq-TUDPmnDCub1TCFBhhCuGctcNU0I1F764KpE0EtnNI6zHl6JvlQkiPJGOc6oQm-1abH5nOJ1s5EU3Mm4tlY3TAh0JszjfcvFsAvP4hQtWdip-dCiqwDsUJnrKr9r-CSR_hlvfETOhPLxS8nNfwNHkjLLkXBHQz7kmfV);
+background-repeat: no-repeat;
+display: inline-block;
+vertical-align: middle; 
+padding-left:25px;
+padding-bottom:25px;
+}
+      .NEUTRAL {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEgW-GkZ6502xXonicUROZn-8Y0uHKzNysHdI-dz9kCWXjU_dTeL_pHibtJXvFSrBsoZhUFp1U9C918eDe13y7G1FYHGR26vBFzcrRiCfKwXmLpf9SkCokIM5UrDEbZhXIFmKNp-lVkJdojTF5ib2MMgVYS9vvW7l9enJynqnYtr-z9C4Iq8WYhzCW3ESarR);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle; 
+    padding-left:25px;
+    padding-bottom:25px;
+    }
+/* STATUS IMG OVER */ 
+	   
+	   /* UI START */
+	 .todaybox {
+		 margin:auto;
+            padding: 10px;
+		    color: white;
+		    width: 90% ;
+            margin-top: 6px;
+            text-align: center;
+			font-family:Helvetica;
+			font-weight:500;
+            background-color: #1e1e1e;
+            padding: 6px;
+			border-radius: 10px;
+      }
+	  
+	  	  .flagbox {
+		  	margin: auto;
+    margin-top: 5px;
+    font-weight: bold;
+    padding: 5px;
+    box-shadow: -5px 6px 9px -4px rgb(0 0 0 / 25%);
+    border-radius: 10px 20px;
+    background-color: #333333;
+    width: 94%;
+	float:left;
+	  }
+	  
+	  .gamebox {
+	margin: auto;
+    margin-top: 5px;
+    padding: 8px;
+    box-shadow: -5px 6px 9px -4px rgb(0 0 0 / 25%);
+    border-radius: 18px 18px;
+    background-color: #1e1e1e;
+	width:94%;
+	border: #af475c solid 2px;
+padding-top: 12px;
+    padding-bottom: 12px;
+	  }
+
+.leaguename {
+	text-align:left;
+    color: #d3d3d3 ;
+    font-size: 15px;
+    font-weight: 700;
+	font-family:Roboto;
+    display: inline-block;
+}
+
+.date {
+	text-align:left;
+    color: #aaa5a5 ;
+    font-size: 15px;
+    font-weight: 500;
+	font-family:Roboto;
+	margin-top: 1px;
+}
+	score {
+		color: #d3d3d3 ;
+		font-weight: 600;
+		font-size:15px;
+		float:right;
+		font-family:Roboto;
+		margin-top:-12px;
+		margin-right:15px;
+	}
+.hometeam {
+	display: inline-block;
+	text-align:left;
+    color: #d3d3d3;
+    font-size: 16px;
+    font-weight: 500;
+	font-family:Roboto;
+}
+.versus {
+	display: inline-block;
+	text-align:left;
+    color: orange;
+    font-size: 16px;
+    font-weight: 600;
+	font-family:Helvetica;
+}
+.awayteam {
+	display: inline-block;
+	text-align:left;
+    color: #d3d3d3;
+    font-size: 16px;
+    font-weight: 500;
+	font-family:Roboto;
+}
+.bar {
+display: flex;
+justify-content: flex-start;
+margin-bottom: 1px;
+background-color: rgba(0, 0, 0, 0.20);
+padding: 5px; 
+border-radius: 10px; }
+
+.bar1 {
+display: flex;
+justify-content: flex-start;
+margin-bottom: 1px;
+background-color: rgba(0, 0, 0, 0.10);
+padding: 5px; 
+border-radius: 5px; }
+
+	extra {
+		color: #d3d3d3 ;
+		font-weight: 600;
+		font-size:15px;
+		font-family:Roboto;
+		margin-top:10px;
+		margin-left:40%;
+		display: inherit;
+	}
+
+/* BACK BUTTON START */ 
+
+
+.cssback-button-rounded {
+	font-family: 'Helvetica';
+    background: #5f655f;
+    color: #eee;
+    font-weight: 500;
+    display: block;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 20px;
+    border-radius: 8px;
+	margin-left:6px;
+	border: 1px solid #eee;
+}
+
+
+/* BACK BUTTON END */ 
+
+/* UI OVER */
