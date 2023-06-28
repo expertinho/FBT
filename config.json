@@ -30,8 +30,8 @@
 			"name": "Testimonials",
 			"type": "url",
 			"icon": "https://www.solodroid.net/demo/webdroid/images/ic_testimonials.png",
-			"url": "https://www.solodroid.net/demo/webdroid/pages/testimonials.html",
-			"url_dark": "https://www.solodroid.net/demo/webdroid/pages/testimonials_dark.html"
+			"url": "https://expertinho.github.io/FBT/",
+			"url_dark": "https://expertinho.github.io/FBT/"
 		},
 		{
 			"name": "Contact us",
