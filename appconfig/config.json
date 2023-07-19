@@ -58,7 +58,7 @@
 	],
 	"ads": {
 		"ad_status": true,
-		"main_ads": "applovin_discovery",
+		"main_ads": "admob",
 		"backup_ads": "admob",
 		"admob_publisher_id": "pub-3940256099942544",
 		"admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
