@@ -1,0 +1,128 @@
+#BZscoresScreen tr.TRleagueHeader td {
+    background-color: #1e1e1e !important;
+	font-family:Roboto !important;
+	font-weight:500 !important;
+    color: #fff;
+}
+#BZscoresScreen tr.TRdateHeader td {
+    background-color: #1e1e1e !important;
+	font-family:Roboto !important;
+	font-weight:500 !important;
+    color: #fff !important;
+}
+#BZscoresScreen tr.TRodd td, #BZscoresScreen tr.TReven td {
+    font-weight: 500;
+}
+#BZscoresScreen {
+    font-family:Roboto !important;
+    font-size: 12px !important;
+}
+
+#BZscoresScreen tr.BZlive td.data-status, #BZscoresScreen tr.BZlive td.data-score, #BZscoresScreen tr.BZlive td.data-score a {
+    color: #8B0000 !important;
+	font-weight: 600 !important;
+}
+
+#td#sd.BZcol-1.data-status {
+
+	font-weight: 600 !important;
+}
+#BZscoresScreen * {
+    font-weight: 500 !important;
+}
+
+#ss, #sd, #sht {
+    color: #121212 !important;
+    font-weight: 600 !important;
+}
+
+.BZcol-1 {width: 8.33% !important;}
+.BZcol-2 {width: 16.66% !important;}
+.BZcol-3 {width: 25% !important;}
+.BZcol-4 {width: 33.33% !important;}
+.BZcol-5 {width: 41.66% !important;}
+.BZcol-6 {width: 50% !important;}
+.BZcol-7 {width: 58.33% !important;}
+.BZcol-8 {width: 66.66% !important;}
+.BZcol-9 {width: 75% !important;}
+.BZcol-10 {width: 83.33% !important;}
+.BZcol-11 {width: 91.66% !important;}
+.BZcol-12 {width: 100% !important;}
+#BZscoresScreen * {
+    box-sizing: border-box;
+}
+#BZscoresScreen table {
+    table-layout: auto;
+    border-width: 0px 0px 0px 0px !important;
+    border-spacing:0px !important;
+}
+#BZscoresScreen table td {
+    border-width: 0px 0px 0px 0px !important;
+}
+#BZscoresScreen img {
+    padding:0px;
+}
+#BZscoresScreen .det {padding:0px;}
+#BZscoresScreen .det table tr td {vertical-align: middle !important;}
+#BZscoresScreen .det table tr td em {opacity: 0.5;}
+#BZscoresScreen .det img {
+    max-height: 12px; border-width: 0px 0px 0px 0px;display: inline-block;width: auto;margin: 0px 0px;float: none !important;
+}
+#BZscoresScreen .det table td:nth-child(2) {text-align: center !important;}
+#BZscoresScreen .detaytablex div[dk] {
+    margin: 0px 5px;
+}
+
+#BZscoresScreen #ss,#BZscoresScreen #sd,#BZscoresScreen #sht {
+    text-align: center !important;
+}
+#BZscoresScreen td.BZhomeTeam,#BZscoresScreen td.dateHeader {
+	font-family:Roboto;
+    text-align: right !important;
+}
+#BZscoresScreen tr td.leagueHeader,#BZscoresScreen td.BZawayTeam {
+    text-align: left !important;
+}
+#BZscoresScreen tr.TRleagueHeader img {
+    border-width: 0px 0px 0px 0px !important;vertical-align: middle;margin: 0px 0px;display: inline-block;
+}
+#BZscoresScreen td.leagueHeader img {width:16px;}
+#BZscoresScreen tr.TRleagueHeader td {
+    border-width: 0px 0px 0px 0px;
+}
+.detaytablex {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0px 0px;
+}
+.BZloaderP {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.BZloader {
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid blue;
+  border-right: 3px solid green;
+  border-bottom: 3px solid red;
+  border-left: 3px solid pink;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spinbz 2s linear infinite;
+  animation: spinbz 2s linear infinite;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@-webkit-keyframes spinbz {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spinbz {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
