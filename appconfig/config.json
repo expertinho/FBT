@@ -16,42 +16,42 @@
 		{
 			"name": "Football Tips",
 			"type": "url",
-			"icon": "https://expertinho.github.io/FBT/foot.png",
+			"icon": "https://expertinho.github.io/FBT/imgs/menu/foot.png",
 			"url": "https://fbt2023.blogspot.com/",
 			"url_dark": "https://fbt2023.blogspot.com/"
 		},
 		{
 			"name": "Live Scores",
 			"type": "url",
-			"icon": "https://expertinho.github.io/FBT/score.png",
+			"icon": "https://expertinho.github.io/FBT/imgs/menu/score.png",
 			"url": "https://fbt2023-livescore.blogspot.com/",
 			"url_dark": "https://fbt2023-livescore.blogspot.com/"
 		},
 		{
 			"name": "F.A.Q",
 			"type": "url",
-			"icon": "https://expertinho.github.io/FBT/faq.png",
+			"icon": "https://expertinho.github.io/FBT/imgs/menu/faq.png",
 			"url": "https://fbt2023-faq.blogspot.com/",
 			"url_dark": "https://fbt2023-faq.blogspot.com/"
 		},
 		{
 			"name": "Rate us",
 			"type": "url",
-			"icon": "https://expertinho.github.io/FBT/rate.png",
+			"icon": "https://expertinho.github.io/FBT/imgs/menu/rate.png",
 			"url": "https://fbt2023-rateus.blogspot.com/",
 			"url_dark": "https://fbt2023-rateus.blogspot.com/"
 		},
 		{
 			"name": "Contact us",
 			"type": "url",
-			"icon": "https://expertinho.github.io/FBT/contact.png",
+			"icon": "https://expertinho.github.io/FBT/imgs/menu/contact.png",
 			"url": "https://fbt2023-contactus.blogspot.com/",
 			"url_dark": "https://fbt2023-contactus.blogspot.com/"
 		},
 		{
 			"name": "Privacy Policy",
 			"type": "url",
-			"icon": "https://expertinho.github.io/FBT/policy.png",
+			"icon": "https://expertinho.github.io/FBT/imgs/menu/policy.png",
 			"url": "https://fbt2023-privacypolicy.blogspot.com/",
 			"url_dark": "https://fbt2023-privacypolicy.blogspot.com/"
 		}
