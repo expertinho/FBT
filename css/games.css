@@ -171,7 +171,7 @@ background-color: #121212;
 		
 /* STATUS IMG START */  
 	 .WON {
-    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEjzq-SiHriwjASFo8bCLTnoSEFGpzua6wcaARxTctYWoG4yehR2XV5oBLpO8_SEYXq-RWMe4KhajU0kphd2-d6mraUjyBE_dyAdlhPl20UhMIsnqc6NQjGeGa7Uu8vm0mIbCkQ6SpgqMUhIlv4lKOS9KCOm1WT1z6c2Ll2MT0SvPqvcTpn4dM4G-EPbac16);
+    background-image: url(https://expertinho.github.io/FBT/imgs/ui/won.png);
 background-repeat: no-repeat;
 display: inline-block;
 vertical-align: middle; 
@@ -179,7 +179,7 @@ padding-left:25px;
 padding-bottom:25px;
 }
      .LOST {
-    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEgZl9_OdiCKrW-0u98c53-SWipiq-TUDPmnDCub1TCFBhhCuGctcNU0I1F764KpE0EtnNI6zHl6JvlQkiPJGOc6oQm-1abH5nOJ1s5EU3Mm4tlY3TAh0JszjfcvFsAvP4hQtWdip-dCiqwDsUJnrKr9r-CSR_hlvfETOhPLxS8nNfwNHkjLLkXBHQz7kmfV);
+    background-image: url(https://expertinho.github.io/FBT/imgs/ui/lost.png);
 background-repeat: no-repeat;
 display: inline-block;
 vertical-align: middle; 
@@ -187,7 +187,7 @@ padding-left:25px;
 padding-bottom:25px;
 }
       .NEUTRAL {
-    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEgW-GkZ6502xXonicUROZn-8Y0uHKzNysHdI-dz9kCWXjU_dTeL_pHibtJXvFSrBsoZhUFp1U9C918eDe13y7G1FYHGR26vBFzcrRiCfKwXmLpf9SkCokIM5UrDEbZhXIFmKNp-lVkJdojTF5ib2MMgVYS9vvW7l9enJynqnYtr-z9C4Iq8WYhzCW3ESarR);
+    background-image: url(https://expertinho.github.io/FBT/imgs/ui/neutral.png);
     background-repeat: no-repeat;
     display: inline-block;
     vertical-align: middle; 
