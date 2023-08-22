@@ -4,7 +4,7 @@
 		"toolbar": true,
 		"navigation_drawer": true,
 		"geolocation": false,
-		"cache": false,
+		"cache": true,
 		"open_link_in_external_browser": false,
 		"zoom_controls": false,
 		"user_agent": "",
